@@ -14,7 +14,7 @@ public class MusicPlayerModel implements MusicPlayer {
   }
 
   @Override
-  public void start() {
+  public void on() {
     this.status = Status.ON;
   }
 
@@ -40,7 +40,7 @@ public class MusicPlayerModel implements MusicPlayer {
   }
 
   @Override
-  public void exit() {
+  public void off() {
     this.status = Status.OFF;
   }
 }

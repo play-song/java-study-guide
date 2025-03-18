@@ -1,9 +1,9 @@
 package music;
 
 public interface MusicPlayer {
-  void start();
+  void on();
   void getState();
   void volumeUp();
   void volumeDown();
-  void exit();
+  void off();
 }

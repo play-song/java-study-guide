@@ -9,7 +9,7 @@ class MusicPlayerModelTest {
   @Test
   void playVolumeUp2Test() {
     var player = new MusicPlayerModel();
-    player.start();
+    player.on();
     player.volumeUp();
     player.volumeUp();
 
